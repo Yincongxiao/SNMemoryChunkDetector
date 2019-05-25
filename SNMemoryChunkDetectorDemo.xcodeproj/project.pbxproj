@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFB02F332298D2B600D32BDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB02F322298D2B600D32BDB /* AppDelegate.m */; };
+		DFB02F362298D2B600D32BDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB02F352298D2B600D32BDB /* ViewController.m */; };
+		DFB02F392298D2B600D32BDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB02F372298D2B600D32BDB /* Main.storyboard */; };
+		DFB02F3B2298D2B900D32BDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB02F3A2298D2B900D32BDB /* Assets.xcassets */; };
+		DFB02F3E2298D2B900D32BDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB02F3C2298D2B900D32BDB /* LaunchScreen.storyboard */; };
+		DFB02F412298D2B900D32BDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB02F402298D2B900D32BDB /* main.m */; };
+		DFB02F4B2298D2B900D32BDB /* SNMemoryChunkDetectorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB02F4A2298D2B900D32BDB /* SNMemoryChunkDetectorDemoUITests.m */; };
+		DFB02F582298D30100D32BDB /* SNMemoryChunkDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFB02F572298D30100D32BDB /* SNMemoryChunkDetector.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFB02F472298D2B900D32BDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB02F262298D2B600D32BDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB02F2D2298D2B600D32BDB;
+			remoteInfo = SNMemoryChunkDetectorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFB02F2E2298D2B600D32BDB /* SNMemoryChunkDetectorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNMemoryChunkDetectorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB02F312298D2B600D32BDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFB02F322298D2B600D32BDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFB02F342298D2B600D32BDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFB02F352298D2B600D32BDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFB02F382298D2B600D32BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFB02F3A2298D2B900D32BDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFB02F3D2298D2B900D32BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFB02F3F2298D2B900D32BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB02F402298D2B900D32BDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFB02F462298D2B900D32BDB /* SNMemoryChunkDetectorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNMemoryChunkDetectorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB02F4A2298D2B900D32BDB /* SNMemoryChunkDetectorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNMemoryChunkDetectorDemoUITests.m; sourceTree = "<group>"; };
+		DFB02F4C2298D2B900D32BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB02F562298D30100D32BDB /* SNMemoryChunkDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNMemoryChunkDetector.h; sourceTree = "<group>"; };
+		DFB02F572298D30100D32BDB /* SNMemoryChunkDetector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SNMemoryChunkDetector.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB02F2B2298D2B600D32BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB02F432298D2B900D32BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFB02F252298D2B600D32BDB = {
+			isa = PBXGroup;
+			children = (
+				DFB02F302298D2B600D32BDB /* SNMemoryChunkDetectorDemo */,
+				DFB02F492298D2B900D32BDB /* SNMemoryChunkDetectorDemoUITests */,
+				DFB02F2F2298D2B600D32BDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB02F2F2298D2B600D32BDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFB02F2E2298D2B600D32BDB /* SNMemoryChunkDetectorDemo.app */,
+				DFB02F462298D2B900D32BDB /* SNMemoryChunkDetectorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFB02F302298D2B600D32BDB /* SNMemoryChunkDetectorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DFB02F552298D30100D32BDB /* SNMemoryChunkDetector */,
+				DFB02F312298D2B600D32BDB /* AppDelegate.h */,
+				DFB02F322298D2B600D32BDB /* AppDelegate.m */,
+				DFB02F342298D2B600D32BDB /* ViewController.h */,
+				DFB02F352298D2B600D32BDB /* ViewController.m */,
+				DFB02F372298D2B600D32BDB /* Main.storyboard */,
+				DFB02F3A2298D2B900D32BDB /* Assets.xcassets */,
+				DFB02F3C2298D2B900D32BDB /* LaunchScreen.storyboard */,
+				DFB02F3F2298D2B900D32BDB /* Info.plist */,
+				DFB02F402298D2B900D32BDB /* main.m */,
+			);
+			path = SNMemoryChunkDetectorDemo;
+			sourceTree = "<group>";
+		};
+		DFB02F492298D2B900D32BDB /* SNMemoryChunkDetectorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFB02F4A2298D2B900D32BDB /* SNMemoryChunkDetectorDemoUITests.m */,
+				DFB02F4C2298D2B900D32BDB /* Info.plist */,
+			);
+			path = SNMemoryChunkDetectorDemoUITests;
+			sourceTree = "<group>";
+		};
+		DFB02F552298D30100D32BDB /* SNMemoryChunkDetector */ = {
+			isa = PBXGroup;
+			children = (
+				DFB02F562298D30100D32BDB /* SNMemoryChunkDetector.h */,
+				DFB02F572298D30100D32BDB /* SNMemoryChunkDetector.mm */,
+			);
+			path = SNMemoryChunkDetector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB02F2D2298D2B600D32BDB /* SNMemoryChunkDetectorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB02F4F2298D2B900D32BDB /* Build configuration list for PBXNativeTarget "SNMemoryChunkDetectorDemo" */;
+			buildPhases = (
+				DFB02F2A2298D2B600D32BDB /* Sources */,
+				DFB02F2B2298D2B600D32BDB /* Frameworks */,
+				DFB02F2C2298D2B600D32BDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNMemoryChunkDetectorDemo;
+			productName = SNMemoryChunkDetectorDemo;
+			productReference = DFB02F2E2298D2B600D32BDB /* SNMemoryChunkDetectorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFB02F452298D2B900D32BDB /* SNMemoryChunkDetectorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB02F522298D2B900D32BDB /* Build configuration list for PBXNativeTarget "SNMemoryChunkDetectorDemoUITests" */;
+			buildPhases = (
+				DFB02F422298D2B900D32BDB /* Sources */,
+				DFB02F432298D2B900D32BDB /* Frameworks */,
+				DFB02F442298D2B900D32BDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB02F482298D2B900D32BDB /* PBXTargetDependency */,
+			);
+			name = SNMemoryChunkDetectorDemoUITests;
+			productName = SNMemoryChunkDetectorDemoUITests;
+			productReference = DFB02F462298D2B900D32BDB /* SNMemoryChunkDetectorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB02F262298D2B600D32BDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = asnail;
+				TargetAttributes = {
+					DFB02F2D2298D2B600D32BDB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					DFB02F452298D2B900D32BDB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DFB02F2D2298D2B600D32BDB;
+					};
+				};
+			};
+			buildConfigurationList = DFB02F292298D2B600D32BDB /* Build configuration list for PBXProject "SNMemoryChunkDetectorDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFB02F252298D2B600D32BDB;
+			productRefGroup = DFB02F2F2298D2B600D32BDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB02F2D2298D2B600D32BDB /* SNMemoryChunkDetectorDemo */,
+				DFB02F452298D2B900D32BDB /* SNMemoryChunkDetectorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB02F2C2298D2B600D32BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB02F3E2298D2B900D32BDB /* LaunchScreen.storyboard in Resources */,
+				DFB02F3B2298D2B900D32BDB /* Assets.xcassets in Resources */,
+				DFB02F392298D2B600D32BDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB02F442298D2B900D32BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB02F2A2298D2B600D32BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB02F362298D2B600D32BDB /* ViewController.m in Sources */,
+				DFB02F582298D30100D32BDB /* SNMemoryChunkDetector.mm in Sources */,
+				DFB02F412298D2B900D32BDB /* main.m in Sources */,
+				DFB02F332298D2B600D32BDB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB02F422298D2B900D32BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB02F4B2298D2B900D32BDB /* SNMemoryChunkDetectorDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFB02F482298D2B900D32BDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB02F2D2298D2B600D32BDB /* SNMemoryChunkDetectorDemo */;
+			targetProxy = DFB02F472298D2B900D32BDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFB02F372298D2B600D32BDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB02F382298D2B600D32BDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFB02F3C2298D2B900D32BDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB02F3D2298D2B900D32BDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFB02F4D2298D2B900D32BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFB02F4E2298D2B900D32BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFB02F502298D2B900D32BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2JJQ9HXN5;
+				INFOPLIST_FILE = SNMemoryChunkDetectorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asnail.SNMemoryChunkDetectorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFB02F512298D2B900D32BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2JJQ9HXN5;
+				INFOPLIST_FILE = SNMemoryChunkDetectorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asnail.SNMemoryChunkDetectorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFB02F532298D2B900D32BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2JJQ9HXN5;
+				INFOPLIST_FILE = SNMemoryChunkDetectorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asnail.SNMemoryChunkDetectorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SNMemoryChunkDetectorDemo;
+			};
+			name = Debug;
+		};
+		DFB02F542298D2B900D32BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2JJQ9HXN5;
+				INFOPLIST_FILE = SNMemoryChunkDetectorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asnail.SNMemoryChunkDetectorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SNMemoryChunkDetectorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB02F292298D2B600D32BDB /* Build configuration list for PBXProject "SNMemoryChunkDetectorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB02F4D2298D2B900D32BDB /* Debug */,
+				DFB02F4E2298D2B900D32BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB02F4F2298D2B900D32BDB /* Build configuration list for PBXNativeTarget "SNMemoryChunkDetectorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB02F502298D2B900D32BDB /* Debug */,
+				DFB02F512298D2B900D32BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB02F522298D2B900D32BDB /* Build configuration list for PBXNativeTarget "SNMemoryChunkDetectorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB02F532298D2B900D32BDB /* Debug */,
+				DFB02F542298D2B900D32BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFB02F262298D2B600D32BDB /* Project object */;
+}
